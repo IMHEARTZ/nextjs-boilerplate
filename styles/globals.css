@@ -6,6 +6,14 @@
   background: #f9f9f9;
 } */
 
+/* Heading Style */
+.Heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 65px;
+}
+
+/* Nav-bar Style */
 .nav-bar {
   /* position: fixed;
   top: 0;
@@ -15,6 +23,40 @@
   background: #ffffff;
 }
 
+.Nav_wrapper {
+  border: 2px solid purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px 64px;
+}
+
+/* clear */
+.Nav_wrapper .Nav_logo_wrap {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.Nav_wrapper .Roomsize_Style {
+  border: 1px solid purple;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+/* ใส่สี text ยังไง? */
+.Nav_wrapper .Start_Exploring {
+  background: #222223;
+  border-radius: 12px;
+  padding: 20px 40px;
+}
+
+/* Card Style */
 .card_wrapper {
   /* border: 2px solid purple; */
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
@@ -70,9 +112,11 @@
 }
 
 .card-row {
-  /* border: 1px solid salmon; */
+  border: 1px solid salmon;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 0px 64px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 26px;
+  position: center;
 }

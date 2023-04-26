@@ -1,6 +1,7 @@
 import Nav from "../components/nav";
 import Head from "next/head";
 import Card from "@/components/Card";
+import Topnav from "../components/Topnav";
 
 function Home() {
   return (
@@ -8,7 +9,11 @@ function Home() {
       <Head>
         <title>Tech Dsgn Exp</title>
       </Head>
-      <Nav />
+      {/* <Nav /> */}
+      <Topnav />
+      <div class="Heading">
+        <h1>Recomended for you</h1>
+      </div>
       <div class="card-row">
         <a href="/Card/One">
           <Card />
